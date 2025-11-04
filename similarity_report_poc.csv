@@ -1,0 +1,101 @@
+JIRA_ID,SUMMARY,TEAM,DESCRIPTION,CLUSTER_ID
+PROJ-101,New Profile Management Screen,Alpha,"The current user settings UI is deprecated. Develop a modern React-based screen for users to change their name, email, and password.",0
+PROJ-102,Refactor API Gateway for v2,Alpha,Standardize response codes and endpoint naming conventions for the external-facing API for better monitoring.,1
+PROJ-103,Fix bug in login authentication flow,Alpha,A critical bug where users are logged out after 30 minutes due to an expired token needs immediate fix.,0
+PROJ-104,Update Customer Account Details,Beta,The primary goal is to provide a single page where users can manage their personal information and preferences. This must include name and contact details.,0
+PROJ-105,Improve Database Query Performance,Beta,Analyze slow queries on the main production database and implement indexing improvements for faster reads.,-1
+PROJ-106,Feature: Allow users to edit personal info,Delta,"Create a new REST API endpoint for authenticated users to securely modify their basic personal details (first name, last name). Dependency for mobile app.",0
+PROJ-107,Develop Internal Dashboard for Sales,Gamma,Build a dashboard using Tableau to visualize monthly recurring revenue (MRR) and customer churn rates across all product tiers.,-1
+PROJ-108,New Sign-Up and Login Experience,Gamma,"Overhaul the sign-up process, including email verification and social media login options.",0
+PROJ-109,Migrate legacy reporting database,Epsilon,Shift the old SQL Server data store used by the legacy reporting engine to a cloud-hosted PostgreSQL instance for better performance.,-1
+PROJ-110,Integrate SSO with Azure AD,Zeta,We need to integrate with Azure Active Directory (AAD) to allow Enterprise clients to sign in using their Single Sign-On credentials.,0
+PROJ-111,Research New Payment Processor,Alpha,Investigate options for switching from Stripe to Adyen to reduce transaction fees by 15%.,-1
+PROJ-112,Develop New Auth Microservice,Zeta,"Design and build a standalone microservice to handle all user login, token management, and sign-up flows. This will replace the current in-app utility.",0
+PROJ-113,Update Legal Privacy Policy Document,Beta,Review and update the privacy policy to comply with new GDPR regulations coming into effect next quarter.,-1
+PROJ-114,Add Monitoring to Core Services,Alpha,Implement Prometheus and Grafana for better logging and alerting on service health and latency.,-1
+PROJ-115,Mobile App: Profile Editing Flow,Delta,Design the front-end user experience for editing core account details within the native iOS and Android applications.,0
+PROJ-116,Update application footer design,Beta,Refresh the look and feel of the website footer across all static pages to match the new branding guidelines.,2
+PROJ-117,Implement Caching Layer,Alpha,Add Redis caching layer to product catalog lookup service to reduce load on the primary database.,-1
+PROJ-118,User Details CRUD API,Beta,"Full Create, Read, Update, Delete endpoint set for managing the user entity in the backend service.",0
+PROJ-119,Build email template service,Gamma,Create a dedicated microservice to handle the creation and delivery of all system notification emails.,-1
+PROJ-120,Allow password reset via SMS,Zeta,Implement a secure flow for users to reset their forgotten passwords using a temporary code sent to their registered phone number.,0
+PROJ-121,Refactor Order Service Logic,Alpha,Clean up and reorganize the code within the order processing service to improve maintainability and performance.,1
+PROJ-122,Fix Billing PDF Generation Bug,Epsilon,A bug is causing the total amount field on the invoice PDF to be incorrect when discounts are applied.,-1
+PROJ-123,Web login with social media,Gamma,"Add Google and Facebook login buttons to the sign-in page, integrating with their respective APIs.",0
+PROJ-124,Improve checkout abandonment tracking,Beta,Integrate new analytics events into the checkout funnel to better measure where users drop off.,-1
+PROJ-125,Update User Settings Backend,Alpha,Modify the primary backend service to handle and validate all user profile update requests.,0
+PROJ-126,Add search functionality to docs,Delta,"Implement a full-text search engine (e.g., Elasticsearch) for searching across all help center documentation.",3
+PROJ-127,Two-Factor Authentication (2FA),Zeta,Roll out optional 2FA for all users to enhance account security.,0
+PROJ-128,Optimize Image Loading,Epsilon,Implement lazy loading and WebP conversion for all large images on the product pages.,-1
+PROJ-129,API for updating user profiles,Delta,Dedicated API for mobile clients to securely update user profile data.,0
+PROJ-130,Introduce Feature Flags,Alpha,"Implement a feature flagging system (e.g., LaunchDarkly) to enable/disable features in production without code deployment.",-1
+PROJ-131,Single Sign-On (SSO) integration,Gamma,Implement SAML 2.0 protocol for secure Enterprise client access.,0
+PROJ-132,Fix reporting data inconsistency,Epsilon,Investigate and fix issues where the data warehouse reports differ from the live production figures.,-1
+PROJ-133,Mobile Login Flow Upgrade,Zeta,Improve the speed and reliability of the authentication process in the iOS and Android apps.,0
+PROJ-134,Build custom analytics pipeline,Beta,Set up a Kafka pipeline to stream all user event data for real-time analysis.,4
+PROJ-135,Update copyright year in footer,Alpha,Simple task to change the copyright year displayed on the website footer to 2025.,2
+PROJ-136,User Profile Edit Page V2,Alpha,Next iteration of the front-end profile management screen with new accessibility features.,0
+PROJ-137,Customer Info Update Service,Beta,Backend service dedicated to handling requests to modify non-sensitive customer attributes.,0
+PROJ-138,User Authentication Token Refresh,Zeta,Logic for securely generating and refreshing JWT tokens during user session lifetime.,0
+PROJ-139,Refactor CSS Architecture,Delta,Move all CSS to use a BEM methodology for better long-term styling maintenance.,-1
+PROJ-140,Web Security: Session Management,Zeta,Overhaul how user sessions are managed and terminated across the application for security compliance.,0
+PROJ-141,Implement fraud detection system,Epsilon,Integrate a third-party service to score transactions for potential fraud risk.,-1
+PROJ-142,Backend User Data Model Update,Delta,Update the structure of the user object in the main database to support new fields like preferred language.,0
+PROJ-143,A/B Test Landing Page Copy,Gamma,Design and run an A/B test on two versions of the main landing page headline to measure conversion rate impact.,-1
+PROJ-144,Setup 2-Factor Auth (SMS/Email),Gamma,Provide users with a choice between SMS or email for their second authentication step.,0
+PROJ-145,Update Kubernetes deployment configs,Alpha,Modernize K8s deployment YAMLs for better autoscaling based on CPU usage.,-1
+PROJ-146,Customer Record Management API,Beta,The definitive API for accessing and changing a customer's core demographic data.,0
+PROJ-147,Mobile App Sign-In Redesign,Zeta,Visual and UX update for the login screens on mobile devices.,0
+PROJ-148,Implement dark mode feature,Delta,Add a toggle for users to switch the entire application's theme to dark mode.,5
+PROJ-149,Database Backup Automation,Epsilon,Set up automated daily backups and replication to a secondary region for disaster recovery.,-1
+PROJ-150,External Sign-in Provider Integration,Gamma,Add support for GitHub and LinkedIn as third-party login options.,0
+PROJ-151,QA: Test edge case payment failures,Alpha,Focused testing on scenarios where payment processors return non-standard error codes.,-1
+PROJ-152,Account details modification API,Delta,Core backend service to validate and persist user changes to their account.,0
+PROJ-153,Implement user session termination,Zeta,Build a service to securely log out users across all devices upon request or inactivity.,0
+PROJ-154,Update documentation dependencies,Epsilon,Run dependency updates and security checks on the documentation generation toolchain.,6
+PROJ-155,Create onboarding tutorial videos,Gamma,Produce a series of short videos to guide new users through the initial setup process.,-1
+PROJ-156,Implement password strength meter,Zeta,Add a visual indicator during sign-up and password change to show password complexity.,-1
+PROJ-157,API endpoint for user contact info,Alpha,"API dedicated to retrieving and setting the user's primary contact information (phone, address).",0
+PROJ-158,Improve search result relevance,Delta,Tune the ranking algorithm in Elasticsearch to prioritize newer and more popular results.,3
+PROJ-159,Fix memory leak in background worker,Beta,Identify and resolve a growing memory leak in the asynchronous job processing service.,-1
+PROJ-160,Security: Two-Factor Setup Flow,Zeta,"User flow for enabling, disabling, and recovering their 2FA settings.",0
+PROJ-161,Implement soft delete for records,Epsilon,Change database deletion strategy to 'soft delete' to allow for easier restoration of accidentally deleted data.,-1
+PROJ-162,Customer Data API for Profile Changes,Beta,High-level API used by the front-end to submit all profile modification forms.,0
+PROJ-163,SAML Integration for Enterprise,Gamma,Set up the infrastructure to support enterprise-level SSO using SAML.,-1
+PROJ-164,Mobile App Authentication Upgrade,Zeta,Re-engineer the mobile authentication stack to use the new token refresh service.,0
+PROJ-165,Build automated test suite for UI,Alpha,Write comprehensive end-to-end tests for the entire user interface using Playwright.,-1
+PROJ-166,User Profile Edit Component,Delta,Front-end component built in Vue.js for users to update their personal data.,0
+PROJ-167,Upgrade Message Queue Infrastructure,Epsilon,Move from RabbitMQ to a cloud-native messaging service like AWS SQS.,-1
+PROJ-168,Login flow performance optimization,Zeta,Reduce the total time taken for a user to log in from 2.5s to under 1s.,0
+PROJ-169,API to modify customer data fields,Alpha,Backend service that accepts and validates requests to change customer details.,0
+PROJ-170,Build feature usage analytics,Gamma,Instrument key features to track user adoption and daily active usage metrics.,4
+PROJ-171,Profile Data Update Service,Beta,The microservice responsible for writing verified changes to the main user data store.,0
+PROJ-172,Fix date display formatting bug,Epsilon,Date fields are showing incorrectly formatted timestamps in some localized regions.,-1
+PROJ-173,Account Settings Edit Page,Delta,Final front-end screen for viewing and updating user account configuration.,0
+PROJ-174,External Identity Provider Config,Gamma,Configure settings for connecting to various OAuth providers like Google and Microsoft.,0
+PROJ-175,Authentication service token handling,Zeta,"Dedicated logic within the auth service for creating, signing, and validating user tokens.",0
+PROJ-176,Implement Dark Mode toggle,Delta,Add a simple UI component allowing users to switch between light and dark themes.,5
+PROJ-177,Refactor internal communication service,Beta,Re-architect the service responsible for sending automated emails and internal alerts.,1
+PROJ-178,Profile Editing API Endpoints,Alpha,Collection of API endpoints for all read and write operations related to a user's profile.,0
+PROJ-179,Upgrade CI/CD pipeline,Alpha,Improve the efficiency and speed of the continuous integration and deployment process.,-1
+PROJ-180,User Registration and Login Flow,Zeta,Comprehensive update to the entire process of a user creating an account and subsequently logging in.,0
+PROJ-181,Add localization support for French,Gamma,Prepare the application to display all text in French based on user settings.,-1
+PROJ-182,Customer Profile Update Logic,Beta,Business logic layer that validates and saves changes made to the customer's profile.,0
+PROJ-183,Build a subscription management portal,Epsilon,"Develop a self-service portal for users to upgrade, downgrade, or cancel their subscriptions.",-1
+PROJ-184,Mobile Sign-up Process Redesign,Zeta,Focus on improving the friction points in the account creation flow on mobile devices.,0
+PROJ-185,Update dependency vulnerability scanning,Alpha,Integrate a new tool for scanning and reporting security vulnerabilities in third-party libraries.,6
+PROJ-186,User Data Modification API,Delta,General API designed to handle all secure changes to user records.,0
+PROJ-187,External Login Options Setup,Gamma,Infrastructure setup to support authentication from third-party social providers.,0
+PROJ-188,Implement GDPR data export tool,Epsilon,Build a utility for users to request and download all their personal data in a machine-readable format.,-1
+PROJ-189,Profile Update Form Validation,Alpha,Implement strict validation rules for all fields on the user profile editing form.,0
+PROJ-190,Secure Token Refresh Service,Zeta,Dedicated service to manage the lifecycle of authentication tokens to prevent unauthorized access.,0
+PROJ-191,Optimize database connection pooling,Beta,Tune PostgreSQL connection settings for improved efficiency under high load.,-1
+PROJ-192,Customer Self-Service Profile Edit,Delta,Final testing and release of the user-facing screen for editing account details.,0
+PROJ-193,Auth Flow with Biometrics,Zeta,Enable Face ID and Fingerprint login options for supported mobile devices.,0
+PROJ-194,Refactor logging library,Alpha,Replace the current Python logging setup with a structured JSON logger for easier analysis.,-1
+PROJ-195,User Personal Data API,Beta,The primary API endpoint for all external systems to fetch or modify user's non-sensitive personal information.,0
+PROJ-196,Implement new CDN provider,Epsilon,Switch Content Delivery Network provider to reduce latency for global users.,0
+PROJ-197,Configure Social Logins,Gamma,"Set up required keys and tokens for Google, Facebook, and Twitter sign-in APIs.",0
+PROJ-198,User Sign-In and Registration API,Zeta,The core API responsible for handling all user creation and session initiation requests.,0
+PROJ-199,Customer Detail Editing Logic,Delta,Business logic to safely handle and process a customer's request to update their own details.,0
+PROJ-200,QA: Full Regression Test,Alpha,Execute a comprehensive set of regression tests before the next major release.,-1

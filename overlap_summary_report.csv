@@ -1,0 +1,8 @@
+Cluster_ID,Risk_Level,Feature_Theme,Teams_Involved,Total_Tickets,Overlapping_Jira_IDs,Summary_Action
+0,HIGH RISK,New Profile Management Screen,"Alpha, Beta, Delta, Gamma, Zeta, Epsilon",53,"PROJ-101, PROJ-103, PROJ-104, PROJ-106, PROJ-108, PROJ-110, PROJ-112, PROJ-115, PROJ-118, PROJ-120, PROJ-123, PROJ-125, PROJ-127, PROJ-129, PROJ-131, PROJ-133, PROJ-136, PROJ-137, PROJ-138, PROJ-140, PROJ-142, PROJ-144, PROJ-146, PROJ-147, PROJ-150, PROJ-152, PROJ-153, PROJ-157, PROJ-160, PROJ-162, PROJ-164, PROJ-166, PROJ-168, PROJ-169, PROJ-171, PROJ-173, PROJ-174, PROJ-175, PROJ-178, PROJ-180, PROJ-182, PROJ-184, PROJ-186, PROJ-187, PROJ-189, PROJ-190, PROJ-192, PROJ-193, PROJ-195, PROJ-196, PROJ-197, PROJ-198, PROJ-199","COORDINATE: Alpha, Beta, Delta, Gamma, Zeta, Epsilon must merge or realign."
+1,HIGH RISK,Refactor API Gateway for v2,"Alpha, Beta",3,"PROJ-102, PROJ-121, PROJ-177","COORDINATE: Alpha, Beta must merge or realign."
+2,HIGH RISK,Update application footer design,"Beta, Alpha",2,"PROJ-116, PROJ-135","COORDINATE: Beta, Alpha must merge or realign."
+3,MEDIUM RISK,Add search functionality to docs,Delta,2,"PROJ-126, PROJ-158",REVIEW: Delta should consolidate redundant tickets.
+4,HIGH RISK,Build custom analytics pipeline,"Beta, Gamma",2,"PROJ-134, PROJ-170","COORDINATE: Beta, Gamma must merge or realign."
+5,MEDIUM RISK,Implement dark mode feature,Delta,2,"PROJ-148, PROJ-176",REVIEW: Delta should consolidate redundant tickets.
+6,HIGH RISK,Update documentation dependencies,"Epsilon, Alpha",2,"PROJ-154, PROJ-185","COORDINATE: Epsilon, Alpha must merge or realign."
